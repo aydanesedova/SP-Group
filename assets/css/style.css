@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header .container .pato-logo {
+    width: 10%;
+}
+
+header .container .pato-logo img {
+    width: 100px;
+}
+
+header .container nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header .container nav ul li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: transparent;
+}
+
+header .container nav ul li a:hover {
+    color: rgb(236, 29, 37);
+    transition: 0.4s ease;
+}
+
+header .container .pato-icons {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .container .pato-icons i {
+    color: #fff;
+}
+
+header .container .pato-icons i:hover {
+    color: rgb(236, 29, 37);
+    transition: 0.4s ease;
+}
+
+#pato-place {
+    background-image: url("/assets/images/slide1-01\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 640px;
+}
